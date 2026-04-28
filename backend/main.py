@@ -27,6 +27,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
+       
         "https://smart-civic-analyzer-pe1s.vercel.app"
     ],
     allow_credentials=True,
@@ -186,4 +187,4 @@ def get_summary(db: Session = Depends(get_db)):
 
 # ─── Run ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("main:app", host="0.0.0.0", port=8080, reload=True)
