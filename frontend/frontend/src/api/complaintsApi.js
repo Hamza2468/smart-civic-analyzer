@@ -3,7 +3,7 @@
 // All API calls to the FastAPI backend are defined here.
 // This separates concerns: components don't know about fetch/axios details.
 
-const BASE_URL = "https://smart-civic-analyzer-production.up.railway.app/";
+const BASE_URL = "https://smart-civic-analyzer-production.up.railway.app";
 
 // ── Helper ────────────────────────────────────────────────────────────────────
 async function handleResponse(response) {
