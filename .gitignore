@@ -1,0 +1,15 @@
+# Root .gitignore for smart-civic
+
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/.env
+
+# Frontend (Nested structure)
+frontend/frontend/node_modules/
+frontend/frontend/build/
+frontend/frontend/.env.local
+
+# General
+.DS_Store
+*.log
